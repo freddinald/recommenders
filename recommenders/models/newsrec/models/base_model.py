@@ -41,6 +41,7 @@ class BaseModel:
             graph (object): An optional graph.
             seed (int): Random seed.
         """
+        print("Hello BaseModel")
         self.seed = seed
         tf.compat.v1.set_random_seed(seed)
         np.random.seed(seed)
